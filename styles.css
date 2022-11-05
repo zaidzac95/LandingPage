@@ -6,6 +6,42 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.master-icon {
+    background-color: #243b55;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.social-icon {
+
+    color: aqua;
+    position: relative;
+    display: inline-block; 
+    transition: 0.5s;
+    margin: 5px;
+    width: auto;
+    font-size: 3rem;
+   
+}
+
+
+.social-icon:hover  {
+
+    color: antiquewhite;
+    
+    
+
+
+}
+
+
+
+
 .header {
     width: 100vw;
     height: 200px;
@@ -269,20 +305,14 @@ html {
     text-shadow: rgb(56, 50, 50) 1px 1px
 }
 
-.title-container {
-
-    display: block;
-    color: white;
-    text-shadow: 2px 2px black;
-    width: 40%;
-    padding: 30px;
-    margin-bottom: 20%;
-    margin-right: 30px;
-    border-top: 1px black solid;
 
 
+body {
+
+  background: url("Octocat.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
-
-
 
 
